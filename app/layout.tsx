@@ -82,7 +82,7 @@ export default function RootLayout({
             <div className="flex justify-between items-center">
               <Link
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
-                href=""
+                href="https://github.com/sinAbhishek/NexuShare"
               >
                 <Star className="w-6 h-6" />
                 Star on Github
