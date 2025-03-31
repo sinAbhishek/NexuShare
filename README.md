@@ -3,6 +3,8 @@
 A lightweight local network file sharing and text sync hub, perfect for cross-platform collaboration and troubleshooting sessions.
 ## ScreenShot 
 ![Screenshot (648)](https://github.com/user-attachments/assets/2a51e07e-552c-4783-9760-bbf1378c4d3b)
+![Screenshot 2025-03-25 145415](https://github.com/user-attachments/assets/a54052b5-aa16-476d-afe9-ff73d3d822f1)
+
 
 ## Use Cases
 
