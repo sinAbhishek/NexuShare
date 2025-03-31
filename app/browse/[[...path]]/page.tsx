@@ -36,12 +36,6 @@ export default async function Page({
   const currentPath =
     decodedPath.length > 0 ? join(basePath, ...decodedPath) : basePath;
 
-  // console.log('Attempting to access path:', {
-  //   basePath,
-  //   currentPath,
-  //   requestedPath: decodedPath
-  // })
-
   if (!currentPath.startsWith(basePath)) {
     console.log("Access denied: Path traversal attempt detected", {
       currentPath,
