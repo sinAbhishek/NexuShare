@@ -1,6 +1,8 @@
 # Localhost File Nexus
 
 A lightweight local network file sharing and text sync hub, perfect for cross-platform collaboration and troubleshooting sessions.
+## ScreenShot 
+![Screenshot (648)](https://github.com/user-attachments/assets/2a51e07e-552c-4783-9760-bbf1378c4d3b)
 
 ## Use Cases
 
