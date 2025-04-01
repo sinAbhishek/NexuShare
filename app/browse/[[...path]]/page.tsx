@@ -45,7 +45,7 @@ export default async function Page({
   }
 
   try {
-    // First try without trailing slash
+    // First
     const stats = await stat(currentPath);
 
     let isDirectory = stats.isDirectory();
