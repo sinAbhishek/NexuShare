@@ -75,7 +75,7 @@ export function FileBrowser() {
       await loadFiles();
     } catch (error) {
       console.error("Upload error:", error);
-      throw error; // Re-throw to let FileUpload component handle the error state
+      throw error;
     }
   };
 
