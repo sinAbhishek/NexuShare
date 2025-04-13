@@ -15,7 +15,6 @@ export function SyncedTextarea() {
 
   const debounceTimeoutRef = useRef<NodeJS.Timeout | undefined>(undefined);
 
-  // Ref for keeping the latest synced content for the EventSource callback.
   const syncedContentRef = useRef(syncedContent);
   useEffect(() => {
     syncedContentRef.current = syncedContent;
