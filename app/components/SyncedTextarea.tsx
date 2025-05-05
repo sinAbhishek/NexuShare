@@ -94,6 +94,7 @@ export function SyncedTextarea() {
       }
 
       // Update state and localStorage with the server's content.
+
       updateSyncedContent(data.content);
     };
     return () => eventSource.close();
