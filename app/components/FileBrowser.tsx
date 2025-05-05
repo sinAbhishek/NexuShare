@@ -59,7 +59,6 @@ export function FileBrowser() {
   };
   const handleUpload = async (files: File[]) => {
     try {
-      // Upload logic here if needed
       await Promise.all(
         files.map(async (file) => {
           const formData = new FormData();
